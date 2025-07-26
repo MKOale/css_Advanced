@@ -97,3 +97,38 @@ body {
   height: auto;
   border-radius: 10px;
 }
+/* Testimonial Section */
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #071629;
+  color: white;
+  padding: 60px 20px;
+}
+
+.testimonial-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.testimonial-content blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonial-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.testimonial-content p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #d1d1d1;
+}
