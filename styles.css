@@ -430,3 +430,72 @@ body {
     gap: 12px;
   }
 }
+/* Video Tutorials Section */
+.videos-list {
+  background-color: #f4f4f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.videos-list .section-title {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.video-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.video-card {
+  background-color: white;
+  width: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 160px;
+}
+
+.video-card h3 {
+  font-size: 1.1em;
+  margin: 15px;
+}
+
+.video-card .tutor {
+  display: flex;
+  align-items: center;
+  margin: 0 15px 10px;
+}
+
+.video-card .tutor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.video-card .stars {
+  color: #ffb400;
+  margin: 0 15px 10px;
+}
+
+.video-card p {
+  margin: 0 15px 15px;
+  font-size: 0.9em;
+  color: #555;
+}
+.video-card.placeholder img {
+  width: 100%;
+  display: block;
+}
+.video-card.placeholder:hover {
+  cursor: pointer;
+}
+
